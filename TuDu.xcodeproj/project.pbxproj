@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0358AED72A96314600C3EEDA /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0358AED62A96314600C3EEDA /* ToDoListItem.swift */; };
 		03651DFA2A83F8CC00AC413D /* TuDuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03651DF92A83F8CC00AC413D /* TuDuApp.swift */; };
 		03651DFC2A83F8CC00AC413D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03651DFB2A83F8CC00AC413D /* MainView.swift */; };
 		03651DFE2A83F8CD00AC413D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03651DFD2A83F8CD00AC413D /* Assets.xcassets */; };
@@ -22,7 +23,6 @@
 		03E640EB2A84036F0096CD47 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E640EA2A84036E0096CD47 /* RegisterView.swift */; };
 		03E640ED2A8403950096CD47 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E640EC2A8403950096CD47 /* ToDoListItemView.swift */; };
 		03E640EF2A8403B80096CD47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E640EE2A8403B80096CD47 /* User.swift */; };
-		03E640F12A8403C70096CD47 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E640F02A8403C70096CD47 /* ToDoListItem.swift */; };
 		03E640F32A8403E60096CD47 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E640F22A8403E60096CD47 /* MainViewViewModel.swift */; };
 		03E640F52A8403FB0096CD47 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E640F42A8403FB0096CD47 /* ProfileViewViewModel.swift */; };
 		03E640F72A8404260096CD47 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E640F62A8404260096CD47 /* ToDoListViewViewModel.swift */; };
@@ -37,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0358AED62A96314600C3EEDA /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 		03651DF62A83F8CC00AC413D /* TuDu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuDu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03651DF92A83F8CC00AC413D /* TuDuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuDuApp.swift; sourceTree = "<group>"; };
 		03651DFB2A83F8CC00AC413D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		03E640EA2A84036E0096CD47 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		03E640EC2A8403950096CD47 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		03E640EE2A8403B80096CD47 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		03E640F02A8403C70096CD47 /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 		03E640F22A8403E60096CD47 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 		03E640F42A8403FB0096CD47 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
 		03E640F62A8404260096CD47 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				03E640EE2A8403B80096CD47 /* User.swift */,
-				03E640F02A8403C70096CD47 /* ToDoListItem.swift */,
+				0358AED62A96314600C3EEDA /* ToDoListItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -261,9 +261,9 @@
 				03E640FB2A8404640096CD47 /* LoginViewViewModel.swift in Sources */,
 				03651DFA2A83F8CC00AC413D /* TuDuApp.swift in Sources */,
 				03E641052A84A2EB0096CD47 /* Extension.swift in Sources */,
-				03E640F12A8403C70096CD47 /* ToDoListItem.swift in Sources */,
 				03E640E72A8403590096CD47 /* NewItemView.swift in Sources */,
 				03E640F92A8404470096CD47 /* NewItemViewViewModel.swift in Sources */,
+				0358AED72A96314600C3EEDA /* ToDoListItem.swift in Sources */,
 				03E640FF2A8404930096CD47 /* ToDoListItemViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
